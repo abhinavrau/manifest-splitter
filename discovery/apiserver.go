@@ -9,6 +9,8 @@ import (
 	"k8s.io/client-go/discovery/cached/memory"
 	"k8s.io/client-go/rest"
 	"k8s.io/client-go/restmapper"
+	 _ "k8s.io/client-go/plugin/pkg/client/auth/gcp"
+	
 )
 
 // APIServerResourceInspector implements ResourceInspector using the Kubernetes
